@@ -53,11 +53,11 @@ const Hero = () => {
                            src="/assets/images/webp/women.webp"
                                 className="hero-image object-cover object-top sm:max-w-[558px] sm:h-[400px] max-w-[450px] h-[300px] rounded w-full mx-auto"
                             />
-                            <div className="absolute dots-position top-[-93px] lg:right-[-39px] sm:right-[57px] right-[-5px] z-[-1]">
+                            <div className="absolute dots-position top-[-57px] max-sm:top-0 lg:right-[-39px] sm:right-[57px] right-[-5px] z-[-1]">
                                 <Image
-                                    width={112} height={187}
+                                    width={187} height={112}
                                     src="/assets/images/webp/ellipse.webp"
-                                    className="dots-image w-[112px] h-[187px] object-contain"
+                                    className="dots-image w-[187px] h-[112px] object-contain"
                                 />
                             </div>
                         </div>
@@ -69,11 +69,11 @@ const Hero = () => {
                                 src="/assets/images/webp/women.webp"
                                 className=" object-cover xl:max-w-[558px] xl:h-[760px] max-w-[400px] h-unset rounded w-100"
                             />
-                            <div className="absolute dots-position top-[-93px] right-0 xl:right-[-39px] z-[-1]">
+                            <div className="absolute dots-position top-[-57px] max-sm:top-0 right-0 xl:right-[-39px] z-[-1]">
                                 <Image
-                                    width={112} height={187}
+                                width={187} height={112}
                                        src="/assets/images/webp/ellipse.webp"
-                                    className="dots-image w-[112px] h-[187px] object-contain"
+                                    className="dots-image w-[187px] h-[112px] object-contain"
                                 />
                             </div>
                         </div>
