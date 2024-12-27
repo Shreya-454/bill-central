@@ -10,3 +10,6 @@
   body {
   font-family: "Helvetica", sans-serif !important;
   }
+  .linear-slider .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }

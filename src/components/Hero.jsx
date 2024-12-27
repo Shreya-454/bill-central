@@ -16,7 +16,7 @@ const Hero = () => {
         }
     };
     return (
-        <section className="bg-hero lg:bg-center bg-right bg-cover lg:bg-full sm:h-[810px]">
+        <section className="bg-hero lg:bg-center bg-right bg-cover lg:bg-full xl:h-[810px] lg:h-[650px] md:h-[800px]">
             <NavBar/>
             <div className='md:py-16 lg:py-[115px] py-10'>
                 <div className="max-w-[1180px] px-5 relative mx-auto">
@@ -33,7 +33,7 @@ const Hero = () => {
                                 search, letting you compare providers and make informed decisions, all in one place.</p>
                                 <div className='flex justify-between bg-light-white border border-solid border-pale-grey md:p-[9px_9px_9px_20px] p-[6px_6px_6px_10px] max-w-[476px] w-full rounded-[0_100px_100px_55px]'>
                                 <input type="mail" className='w-full font-normal md:text-base text-sm !leading-110 outline-none text-light-grey  pe-2' placeholder='Start typing your address' />
-                                    <button aria-label="contact us" className='flex items-center duration-500  gap-[3px] font-bold text-base leading-115 hover:bg-black text-white bg-sky-blue w-full max-w-[137px] py-[12px] md:ps-5 ps-3 md:pe-[3px] pe-5 rounded-[0_50px_50px_20px]'>Compare
+                                    <button aria-label="contact us" className='flex items-center duration-500  gap-[3px] font-bold text-base leading-115 hover:bg-black text-white bg-sky-blue w-full max-w-[137px] py-3 px-5  rounded-[0_50px_50px_20px]'>Compare
                                     <Icons icon="white-arrow"/>
                                     </button>
                                 </div>
@@ -53,7 +53,7 @@ const Hero = () => {
                            src="/assets/images/webp/women.webp"
                                 className="hero-image object-cover object-top sm:max-w-[558px] sm:h-[400px] max-w-[450px] h-[300px] rounded w-full mx-auto"
                             />
-                            <div className="absolute dots-position top-[-57px] max-sm:-top-8 lg:right-[-39px] sm:right-[57px] right-[-5px] z-[-1]">
+                            <div className="absolute dots-position top-[-57px] max-sm:-top-8 lg:right-[-59px] sm:right-[57px] right-[-5px] z-[-1]">
                                 <Image
                                     width={187} height={112}
                                     src="/assets/images/webp/ellipse.webp"
@@ -69,7 +69,7 @@ const Hero = () => {
                                 src="/assets/images/webp/women.webp"
                                 className=" object-cover xl:max-w-[558px] xl:h-[760px] max-w-[400px] h-unset rounded w-100"
                             />
-                            <div className="absolute dots-position top-[-57px] max-sm:-top-8 right-0 xl:right-[-39px] z-[-1]">
+                            <div className="absolute dots-position top-[-57px] max-sm:-top-8 right-0 xl:right-[-59px] z-[-1]">
                                 <Image
                                 width={187} height={112}
                                        src="/assets/images/webp/ellipse.webp"
