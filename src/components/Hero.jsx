@@ -16,7 +16,7 @@ const Hero = () => {
         }
     };
     return (
-        <section className="lg:bg-hero max-lg:bg-purssian-blue bg-full sm:h-[810px]">
+        <section className="bg-hero lg:bg-center bg-right bg-cover lg:bg-full sm:h-[810px]">
             <NavBar/>
             <div className='md:py-16 lg:py-[115px] py-10'>
                 <div className="max-w-[1180px] px-5 relative mx-auto">
