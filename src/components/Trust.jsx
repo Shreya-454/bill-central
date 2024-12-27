@@ -22,8 +22,8 @@ const Trust = () => {
           delay: 0, // Continuous sliding
           disableOnInteraction: false,
         }}
-        speed={3000} // Adjust speed for linear motion
-        allowTouchMove={false} // Disable user interaction
+        speed={3000}
+        allowTouchMove={false} 
         breakpoints={{
           1024: {
             slidesPerView: 7,
