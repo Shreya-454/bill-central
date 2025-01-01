@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const Trust = () => {
   return (
-    <div className="max-w-[1180px] px-5 mx-auto container lg:pt-[54px] md:pt-[200px] sm:pt-16 pt-10 pb-10">
+    <div className="max-w-[1180px] px-5 mx-auto container lg:pt-[54px] md:pt-[200px] sm:pt-16 pt-10">
       <h2 className='text-2xl sm:text-3xl md:text-custom-4xl capitalize text-purssian-blue leading-110 font-normal max-w-[300px] max-lg:mx-auto max-lg:text-center sm:max-w-[548px] mb-6 sm:mb-10 md:mb-12 lg:mb-16'>
         More than <span className='text-sky-blue font-bold'>80,000</span>+ companies trust bill central
       </h2>

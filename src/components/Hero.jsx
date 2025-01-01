@@ -50,12 +50,12 @@ const Hero = () => {
                         <div className="relative z-[2] lg:hidden max-lg-image sm:mt-20 mt-10">
                             <Image
                                 width={558} height={760}
-                           src="/assets/images/webp/women.webp"
+                           src="/assets/images/webp/women.webp" alt='women'
                                 className="hero-image object-cover object-top sm:max-w-[558px] sm:h-[400px] max-w-[450px] h-[300px] rounded w-full mx-auto"
                             />
                             <div className="absolute dots-position top-[-57px] max-sm:-top-8 lg:right-[-59px] sm:right-[57px] right-[-5px] z-[-1]">
                                 <Image
-                                    width={187} height={112}
+                                    width={187} height={112} alt='dots'
                                     src="/assets/images/webp/ellipse.webp"
                                     className="dots-image w-[187px] h-[112px] object-contain"
                                 />
@@ -66,13 +66,13 @@ const Hero = () => {
                         <div className="relative z-[2]">
                             <Image
                                 width={558} height={760}
-                                src="/assets/images/webp/women.webp"
+                                src="/assets/images/webp/women.webp" alt='women'
                                 className=" object-cover xl:max-w-[558px] xl:h-[760px] max-w-[400px] h-unset rounded w-100"
                             />
                             <div className="absolute dots-position top-[-57px] max-sm:-top-8 right-0 xl:right-[-59px] z-[-1]">
                                 <Image
                                 width={187} height={112}
-                                       src="/assets/images/webp/ellipse.webp"
+                                       src="/assets/images/webp/ellipse.webp" alt='dots'
                                     className="dots-image w-[187px] h-[112px] object-contain"
                                 />
                             </div>

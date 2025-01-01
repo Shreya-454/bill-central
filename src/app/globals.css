@@ -13,3 +13,7 @@
   .linear-slider .swiper-wrapper {
     transition-timing-function: linear !important;
   }
+  .vertical-text{
+    writing-mode: vertical-rl;
+
+  }
