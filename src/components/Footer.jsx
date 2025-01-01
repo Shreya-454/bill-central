@@ -7,14 +7,14 @@ import { FOOTER_LINK_LIST, SOCIAL_ICONS_LIST } from '@/utils/helper'
 
 const Footer = () => {
   return (
-    <div className='bg-foot bg-cover bg-center bg-no-repeat pt-[232px]'>
-      <div className="container max-w-[1180px] mx-auto px-5 pb-14">
+    <div className='bg-foot bg-cover bg-center bg-no-repeat md:pt-[232px] sm:pt-[214px] pt-[166px]'>
+      <div className="container max-w-[1180px] mx-auto px-5 pb-8 sm:pb-14">
 <div className="flex flex-row flex-wrap -mx-3">
-<div className="sm:w-1/2 max-sm:mb-8 w-full px-3">
+<div className="sm:w-1/2 max-sm:mb-6 w-full px-3">
 <Link href="/">
-  <Image src="/assets/images/svg/footer-logo.svg" alt='footer-logo' width={223} height={84.95} className='mb-7'/>
+  <Image src="/assets/images/svg/footer-logo.svg" alt='footer-logo' width={223} height={84.95} className='md:mb-7 mb-4 lg:max-w-[223px] sm:max-w-[170px] max-w-[140px] '/>
   </Link>
-<Paragraph className='text-white text-opacity-90 sm:max-w-[297px] mb-9'>Ut auctor nisi mauris eu tincidunt facilisi. Diam amet sollicitudin pretium maecenas ornare lacus arcu adipiscing. </Paragraph>
+<Paragraph className='text-white text-opacity-90 sm:max-w-[297px] md:mb-9 mb-5'>Ut auctor nisi mauris eu tincidunt facilisi. Diam amet sollicitudin pretium maecenas ornare lacus arcu adipiscing. </Paragraph>
 <p className='sm:text-xl text-lg text-white font-bold !leading-115 mb-4'>Follow Us</p>
 <div className="flex gap-4">
   {
@@ -48,6 +48,9 @@ const Footer = () => {
 </div>
 </div>
 </div>
+      </div>
+      <div className='border-t border-white border-opacity-20 py-5 px-5'>
+        <p className='text-white text-sm text-center !leading-150 text-opacity-90'>©{new Date().getFullYear()} BILL CENTRAL, Inc. All Rights Reserved.</p>
       </div>
     </div>
   )
