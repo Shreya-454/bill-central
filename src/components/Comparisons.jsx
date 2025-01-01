@@ -13,7 +13,7 @@ const Comparisons = () => {
     };
 
     return (
-        <div className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
+        <div id='service' className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
             <div className='container max-w-[1180px] mx-auto px-5'>
                 <div className="flex lg:flex-row flex-col-reverse flex-wrap -mx-3 ">
                     <div className='lg:w-1/2 px-3 w-full max-sm:mt-8 max-md:mt-10 max-lg:mt-14'>

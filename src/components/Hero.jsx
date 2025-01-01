@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import Image from "next/image";
 import NavBar from './NavBar';
 import Icons from './common/Icons';
+import CommonButton from './common/CommonButton';
 const Hero = () => {
     const [address, setAddress] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
@@ -33,9 +34,7 @@ const Hero = () => {
                                 search, letting you compare providers and make informed decisions, all in one place.</p>
                                 <div className='flex justify-between bg-light-white border border-solid border-pale-grey md:p-[9px_9px_9px_20px] p-[6px_6px_6px_10px] max-w-[476px] w-full rounded-[0_100px_100px_55px]'>
                                 <input type="mail" className='w-full font-normal md:text-base text-sm !leading-110 outline-none text-light-grey  pe-2' placeholder='Start typing your address' />
-                                    <button aria-label="contact us" className='flex items-center duration-500  gap-[3px] font-bold text-base leading-115 hover:bg-black text-white bg-sky-blue w-full max-w-[137px] py-3 px-5  rounded-[0_50px_50px_20px]'>Compare
-                                    <Icons icon="white-arrow"/>
-                                    </button>
+                                <CommonButton className='w-full sm:max-w-[137px] max-w-[110px]'>Compare</CommonButton>
                                 </div>
                                 {errorMessage && (
                                     <span

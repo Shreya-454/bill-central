@@ -14,7 +14,7 @@ const Faqs = () => {
   };
 
   return (
-    <div className="lg:pb-[162px] md:pb-24 sm:pb-16 pb-10">
+    <div id="faq" className="lg:pb-[162px] md:pb-24 sm:pb-16 pb-10">
       <div className="container max-w-[1180px] px-5 mx-auto">
         <CommonHeading center className="mb-4">
           Frequently Asked <span className="font-bold">Questions</span>
@@ -32,7 +32,7 @@ const Faqs = () => {
               onClick={() => toggleAccordion(index)}
               className={`${
                 openAccordion === index
-                  ? "sm:!py-[26px] py-4 px-3.5 md:px-4 bg-purssian-blue"
+                  ? "sm:!py-[26px] py-4 px-3.5 md:px-6 bg-purssian-blue"
                   : "bg-light-white sm:p-6 p-3.5"
               } cursor-pointer accordion-item rounded transition-all duration-300 ease-in-out  shadow-acc-box`}
               key={index}

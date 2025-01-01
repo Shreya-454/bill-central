@@ -12,7 +12,7 @@ import Icons from './common/Icons'
 
 const Testimonials = () => {
   return (
-    <div className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
+    <div id='testimonial' className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
       <div className='container max-w-[1180px] mx-auto px-5 '>
         <CommonHeading center className='mb-4'>Our <span className='font-bold'>Testimonials</span></CommonHeading>
         <Paragraph center className='text-opacity-90 text-deep-blue max-w-[490px] md:mb-12 sm:mb-9 mb-6 lg:mb-[62px]'>Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum</Paragraph>
@@ -21,6 +21,7 @@ const Testimonials = () => {
              slidesPerView={1}
              spaceBetween={20}
              loop={true}
+             autoplay={true}
              centeredSlides={true}
              navigation={{ nextEl: ".nextbtn", prevEl: ".prevbtn" }}
              modules={[Pagination, Navigation, Autoplay]}

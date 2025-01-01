@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+  scroll-behavior: smooth !important;
+}
 @font-face {
     font-family: "Helvetica";
     src: url("/assets/fonts/Helvetica.ttf");
@@ -9,6 +11,7 @@
   }
   body {
   font-family: "Helvetica", sans-serif !important;
+ 
   }
   .linear-slider .swiper-wrapper {
     transition-timing-function: linear !important;

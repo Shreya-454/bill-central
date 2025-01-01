@@ -5,7 +5,7 @@ import CommonButton from './common/CommonButton'
 
 const SwitchingEnergy = () => {
   return (
-    <div className='lg:py-[162px] md:py-24 sm:py-16 py-10'>
+    <div id='about' className='lg:py-[162px] md:py-24 sm:py-16 py-10'>
       <div className="container max-w-[1180px] mx-auto px-5">
 <div className="flex flex-row flex-wrap items-center -mx-3">
   <div className='lg:w-1/2 w-full px-3 flex max-lg:justify-center  max-lg:mb-10 max-md:mb-8 max-sm:mb-6'>

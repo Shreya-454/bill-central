@@ -6,7 +6,7 @@ import { SWITCH_LIST } from '@/utils/helper'
 
 const Switch = () => {
   return (
-    <div className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
+    <div id='how' className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
       <div className="conatiner max-w-[1440px] max-lg:px-5 mx-auto">
         <CommonHeading center className='mb-4'>Simple Steps to <span className='font-bold'>Switch</span></CommonHeading>
         <Paragraph center className='text-dark-grey text-opacity-90 max-w-[610px] mb-5 sm:mb-7 md:mb-10 lg:mb-[58px]'>Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum</Paragraph>

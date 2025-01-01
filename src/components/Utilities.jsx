@@ -6,7 +6,7 @@ import { UTILITIES_DATA_LIST } from '@/utils/helper'
 
 const Utilities = () => {
   return (
-    <div className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
+    <div id='whyus' className='lg:pb-[162px] md:pb-24 sm:pb-16 pb-10'>
       <div className="container max-w-[1180px] px-5 mx-auto">
 <CommonHeading center className='mb-4'>Why Choose Us for <span className='font-bold'>Utilities</span></CommonHeading>
 <Paragraph center className='text-deep-blue opacity-90 max-w-[620px] mb-4 sm:mb-10 md:mb-[58px]'>This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!</Paragraph>
@@ -20,10 +20,10 @@ const Utilities = () => {
     <div className='grid sm:grid-cols-2 grid-cols-1 xl:gap-6 gap-4 w-full'>
         {
             UTILITIES_DATA_LIST.map((data,i)=>(
-                <div key={i} className='bg-white sm:p-6 p-4 min-custom-lg:h-[286px] rounded border border-deep-blue  border-opacity-10 shadow-utility-box'>
-<Icons icon={data.icon}  />
-<h4 className='sm:mt-[18px] mt-3 text-xl sm:text-2xl !leading-110 text-off-black font-normal mb-2 sm:mb-3'>{data.title}</h4>
-<Paragraph className='text-deep-blue text-opacity-90'>{data.content}</Paragraph>
+                <div key={i} className='bg-white hover:bg-purssian-blue duration-300 group sm:p-6 p-4 min-custom-lg:h-[286px] rounded border border-deep-blue  border-opacity-10 shadow-utility-box'>
+<Icons icon={data.icon} className='group-hover:fill-white duration-300'  />
+<h4 className='sm:mt-[18px] mt-3 text-xl sm:text-2xl !leading-110 text-off-black group-hover:text-white duration-300 font-normal mb-2 sm:mb-3'>{data.title}</h4>
+<Paragraph className='text-deep-blue text-opacity-90 group-hover:text-white duration-300'>{data.content}</Paragraph>
 </div>
             ))
         }
