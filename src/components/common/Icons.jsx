@@ -140,7 +140,7 @@ const Icons = ({ icon, className = "", ...props }) => {
               </svg>
               ),
               "twitter":(<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_144_424)">
+                <g clipPath="url(#clip0_144_424)">
                 <path d="M16.1892 1.59277H19.2716L12.5389 9.30774L20.4599 19.8062H14.2585L9.4012 13.4378L3.84296 19.8062H0.759232L7.96045 11.5536L0.362305 1.59277H6.72194L11.112 7.41228L16.1892 1.59277ZM15.1089 17.9572H16.8172L5.79242 3.34503H3.96103L15.1089 17.9572Z" fill="#FCFCFC"/>
                 </g>
                 <defs>
