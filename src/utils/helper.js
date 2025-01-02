@@ -239,3 +239,64 @@ export const FAQ_DATA_LIST = [
         ]
     }
   ]
+  export const BLOG_POST_LIST = [
+    {
+        mainImg:"/assets/images/webp/Image.webp",
+        title:"Lorem ipsum dolor sit",
+        category:"XX.XX.2024",
+        discription:"Lorem ipsum dolor sit amet consectetur. Orci nisl ut nulla ornare duis elit. At accumsan enim leo feugiat. Nulla ac mauris.",
+        details:"Lorem ipsum dolor sit amet consectetur. Massa aliquam suscipit diam elit vestibulum tempor. Magna sollicitudin risus eu ac commodo nibh pellentesque et ac. Aliquam fermentum velit ipsum sem porttitor orci purus malesuada sit. Vitae purus vehicula porta senectus lorem nibh tempus et nulla. Placerat eu varius sapien interdum tellus quis ornare. Eu convallis porttitor enim consequat elementum feugiat. Urna etiam nisl cursus sagittis facilisis viverra turpis. Dolor urna aliquet faucibus mi massa purus accumsan sapien. Mollis luctus dictum semper egestas sem sapien. Arcu tincidunt venenatis nisi enim quam malesuada. Egestas elit sed nec semper cras turpis non eget velit nec.",
+        img:"/assets/images/webp/doctor.webp",
+        para:["Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.",
+"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci."]
+
+    },
+    {
+        mainImg:"/assets/images/webp/consultant.webp",
+        title:"Lorem ipsum dolor sit Lorem ipsum dolor sit",
+        category:"XX.XX.2024",
+        discription:"Lorem ipsum dolor sit amet consectetur. Orci nisl ut nulla ornare duis elit. At accumsan enim leo feugiat. Nulla ac mauris.",
+        details:"Lorem ipsum dolor sit amet consectetur. Massa aliquam suscipit diam elit vestibulum tempor. Magna sollicitudin risus eu ac commodo nibh pellentesque et ac. Aliquam fermentum velit ipsum sem porttitor orci purus malesuada sit. Vitae purus vehicula porta senectus lorem nibh tempus et nulla. Placerat eu varius sapien interdum tellus quis ornare. Eu convallis porttitor enim consequat elementum feugiat. Urna etiam nisl cursus sagittis facilisis viverra turpis. Dolor urna aliquet faucibus mi massa purus accumsan sapien. Mollis luctus dictum semper egestas sem sapien. Arcu tincidunt venenatis nisi enim quam malesuada. Egestas elit sed nec semper cras turpis non eget velit nec.",
+        img:"/assets/images/webp/doctor.webp",
+        para:["Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.",
+"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci."]
+    },
+    {
+        mainImg:"/assets/images/webp/Image.webp",
+        title:"Lorem ipsum dolor sitghjk",
+        category:"XX.XX.2024",
+        discription:"Lorem ipsum dolor sit amet consectetur. Orci nisl ut nulla ornare duis elit. At accumsan enim leo feugiat. Nulla ac mauris.",
+        details:"Lorem ipsum dolor sit amet consectetur. Massa aliquam suscipit diam elit vestibulum tempor. Magna sollicitudin risus eu ac commodo nibh pellentesque et ac. Aliquam fermentum velit ipsum sem porttitor orci purus malesuada sit. Vitae purus vehicula porta senectus lorem nibh tempus et nulla. Placerat eu varius sapien interdum tellus quis ornare. Eu convallis porttitor enim consequat elementum feugiat. Urna etiam nisl cursus sagittis facilisis viverra turpis. Dolor urna aliquet faucibus mi massa purus accumsan sapien. Mollis luctus dictum semper egestas sem sapien. Arcu tincidunt venenatis nisi enim quam malesuada. Egestas elit sed nec semper cras turpis non eget velit nec.",
+        img:"/assets/images/webp/doctor.webp",
+        para:["Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.",
+"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci."]
+    },
+    {
+        mainImg:"/assets/images/webp/Image.webp",
+        title:"Lorem ipsum dor sit",
+        category:"XX.XX.2024",
+        discription:"Lorem ipsum dolor sit amet consectetur. Orci nisl ut nulla ornare duis elit. At accumsan enim leo feugiat. Nulla ac mauris.",
+        details:"Lorem ipsum dolor sit amet consectetur. Massa aliquam suscipit diam elit vestibulum tempor. Magna sollicitudin risus eu ac commodo nibh pellentesque et ac. Aliquam fermentum velit ipsum sem porttitor orci purus malesuada sit. Vitae purus vehicula porta senectus lorem nibh tempus et nulla. Placerat eu varius sapien interdum tellus quis ornare. Eu convallis porttitor enim consequat elementum feugiat. Urna etiam nisl cursus sagittis facilisis viverra turpis. Dolor urna aliquet faucibus mi massa purus accumsan sapien. Mollis luctus dictum semper egestas sem sapien. Arcu tincidunt venenatis nisi enim quam malesuada. Egestas elit sed nec semper cras turpis non eget velit nec.",
+        img:"/assets/images/webp/doctor.webp",
+        para:["Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.",
+"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci."]
+    },    {
+        mainImg:"/assets/images/webp/Image.webp",
+        title:"Lore sit",
+        category:"XX.XX.2024",
+        discription:"Lorem ipsum dolor sit amet consectetur. Orci nisl ut nulla ornare duis elit. At accumsan enim leo feugiat. Nulla ac mauris.",
+        details:"Lorem ipsum dolor sit amet consectetur. Massa aliquam suscipit diam elit vestibulum tempor. Magna sollicitudin risus eu ac commodo nibh pellentesque et ac. Aliquam fermentum velit ipsum sem porttitor orci purus malesuada sit. Vitae purus vehicula porta senectus lorem nibh tempus et nulla. Placerat eu varius sapien interdum tellus quis ornare. Eu convallis porttitor enim consequat elementum feugiat. Urna etiam nisl cursus sagittis facilisis viverra turpis. Dolor urna aliquet faucibus mi massa purus accumsan sapien. Mollis luctus dictum semper egestas sem sapien. Arcu tincidunt venenatis nisi enim quam malesuada. Egestas elit sed nec semper cras turpis non eget velit nec.",
+        img:"/assets/images/webp/doctor.webp",
+        para:["Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.",
+"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci."]
+    },    {
+        mainImg:"/assets/images/webp/Image.webp",
+        title:"olor sit",
+        category:"XX.XX.2024",
+        discription:"Lorem ipsum dolor sit amet consectetur. Orci nisl ut nulla ornare duis elit. At accumsan enim leo feugiat. Nulla ac mauris.",
+        details:"Lorem ipsum dolor sit amet consectetur. Massa aliquam suscipit diam elit vestibulum tempor. Magna sollicitudin risus eu ac commodo nibh pellentesque et ac. Aliquam fermentum velit ipsum sem porttitor orci purus malesuada sit. Vitae purus vehicula porta senectus lorem nibh tempus et nulla. Placerat eu varius sapien interdum tellus quis ornare. Eu convallis porttitor enim consequat elementum feugiat. Urna etiam nisl cursus sagittis facilisis viverra turpis. Dolor urna aliquet faucibus mi massa purus accumsan sapien. Mollis luctus dictum semper egestas sem sapien. Arcu tincidunt venenatis nisi enim quam malesuada. Egestas elit sed nec semper cras turpis non eget velit nec.",
+        img:"/assets/images/webp/doctor.webp",
+        para:["Elit nisi in eleifend sed nisi. Pulvinar at orci, proin imperdiet commodo consectetur convallis risus. Sed condimentum enim dignissim adipiscing faucibus consequat, urna. Viverra purus et erat auctor aliquam. Risus, volutpat vulputate posuere purus sit congue convallis aliquet. Arcu id augue ut feugiat donec porttitor neque. Mauris, neque ultricies eu vestibulum, bibendum quam lorem id. Dolor lacus, eget nunc lectus in tellus, pharetra, porttitor.",
+"Ipsum sit mattis nulla quam nulla. Gravida id gravida ac enim mauris id. Non pellentesque congue eget consectetur turpis. Sapien, dictum molestie sem tempor. Diam elit, orci, tincidunt aenean tempus. Quis velit eget ut tortor tellus. Sed vel, congue felis elit erat nam nibh orci."]
+    },
+  ]

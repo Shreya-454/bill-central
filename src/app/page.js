@@ -1,3 +1,5 @@
+import Blog from "@/components/Blog";
+import BlogPost from "@/components/BlogPost";
 import Comparisons from "@/components/Comparisons";
 import Faqs from "@/components/Faqs";
 import Footer from "@/components/Footer";
@@ -13,7 +15,7 @@ import Image from "next/image";
 export default function Home() {
   return (
 <div>
-  <Hero/>
+  {/* <Hero/>
   <Trust/>
   <SwitchingEnergy/>
   <Switch/>
@@ -22,7 +24,8 @@ export default function Home() {
   <Testimonials/>
   <Faqs/>
   <Newsletter/>
-  <Footer/>
+  <Footer/> */}
+  <BlogPost/>
 </div>
   );
 }
