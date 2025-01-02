@@ -27,7 +27,7 @@ const Blog = () => {
                       <div className='flex flex-col gap-6'>
                           {
                             data.para.map((obj,i)=>(
-                                <p className='font-normal text-lg leading-155 text-light-grey  max-w-[1074px]'>
+                                <p key={i} className='font-normal text-lg leading-155 text-light-grey  max-w-[1074px]'>
                             {obj}
                               </p>
                             ))
