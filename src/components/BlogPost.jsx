@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const BlogPost = () => {
   return (
-    <div className='max-w-[1248px] container mx-auto px-10'>
+    <div className='max-w-[1248px] container mx-auto px-10 py-24'>
       <h2 className='text-3xl font-semibold text-black mb-8'>All blog posts</h2>
       <div className="grid grid-cols-3 gap-8">
         {
